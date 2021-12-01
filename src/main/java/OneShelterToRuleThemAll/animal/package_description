@@ -1,0 +1,6 @@
+CRUD endpoints:
+dodanie nowego zwierzaka = POST: localhost:8080/api/animals/ + JSON Body Animal
+update zwierzaka o podanym id = POST: localhost:8080/api/animals/{id} + JSON Body Animal
+daje zwierzaka o podanym id = GET: localhost:8080/api/animals/{id}
+daje wszystkie zwierzaki = GET: localhost:8080/api/animals/
+usuwa zwierzaka o podanym id = DELETE: localhost:8080/api/animals/{id}

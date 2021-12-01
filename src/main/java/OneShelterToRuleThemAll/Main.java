@@ -1,13 +1,11 @@
-package com.shelterservice.ShelterService;
+package OneShelterToRuleThemAll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ShelterServiceApplication {
-
+public class Main {
 	public static void main(String[] args) {
-		SpringApplication.run(ShelterServiceApplication.class, args);
+		SpringApplication.run(Main.class, args);
 	}
-
 }

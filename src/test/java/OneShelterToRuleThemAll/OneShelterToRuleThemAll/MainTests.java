@@ -1,10 +1,10 @@
-package com.shelterservice.ShelterService;
+package OneShelterToRuleThemAll.OneShelterToRuleThemAll;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ShelterServiceApplicationTests {
+class MainTests {
 
 	@Test
 	void contextLoads() {
