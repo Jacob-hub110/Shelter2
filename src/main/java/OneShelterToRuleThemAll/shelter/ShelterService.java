@@ -27,9 +27,9 @@ public class ShelterService {
     public List<Shelter> getAll() {
         return shelterRepository.findAll();
     }
+
+
     public void update(Shelter shelter) {
-        Shelter byId = this.getById(shelter.getId());
-        // save sam podmienia obiekt -> nie musze uzywac wczesniej delete
         shelterRepository.save(shelter);
     }
     public void remove(long id) {
